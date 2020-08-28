@@ -1,0 +1,106 @@
+body    {
+    font-family: 'Caveat', cursive;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+
+.form-container  {
+  position:absolute;
+  border: 5px solid gray;
+  background-color: gray;
+  opacity: 0.8;
+  margin: 200px 200px 200px 200px;
+}
+
+
+.wrapper {
+    width:100%;
+    }
+
+.body-image {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: fixed;
+  background-size: 100% auto;
+    background-color: #c8e6d0;
+    
+    background-size: cover;
+   
+    height: 100%;
+    width:100%;
+    margin: 0px auto;
+}
+
+.page-header {
+    
+    padding-top: 100px;
+    padding-left: 30px;
+    color:rgb(83, 5, 5)
+}
+
+.w3-card-3 {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.labeltxt {
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    }
+
+
+  /* Fade animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 3s;
+    animation-name: fade;
+    animation-duration: 3s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .button-wrap  {
+    text-align: center;
+  }
+
+
+.footer-row {
+    background-color: rgb(129, 148, 134);
+    color: #FFFFFF;
+    display: flex;
+    font-size: small;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    }

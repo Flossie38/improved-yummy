@@ -5,7 +5,7 @@ body    {
 }
 
 .navbar-brand {
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 a:hover {
@@ -31,7 +31,7 @@ a:hover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-position: fixed;
+  /* background-position: fixed; */
   background-size: 100% auto;
   background-color: #c8e6d0;
   background-size: cover;
@@ -47,9 +47,14 @@ a:hover {
     color:rgb(83, 5, 5)
 }
 
+.search-container {
+  padding-left: 30px;
+}
+
 .w3-card-3 {
-    padding: 10px;
+    padding: 15px;
     text-align: center;
+    
 }
 
 
@@ -65,7 +70,7 @@ a:hover {
 
 
   /* Fade animation */
-.fade {
+/* .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 3s;
   animation-name: fade;
@@ -80,11 +85,11 @@ a:hover {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+} */
 
-.button-wrap  {
+/* .button-wrap  {
   text-align: center;
-  }
+  } */
 
 
 .footer-row {

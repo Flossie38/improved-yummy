@@ -17,9 +17,17 @@
         crossorigin="anonymous"></script>
 
 
-    <link rel="stylesheet" href="styling.css" type="text/css" />
+    <link rel="stylesheet" href="../css/styling.css" type="text/css" />
 
     <title>Yummy! | Cooking up a storm</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_SJxuXN2N4qcMCYTY0B2Ja");
+      emailjs.send("gmail","yummy",{name: "Hey Yummy!", notes:"Here is my cool recipe!"});
+   })();
+</script>
 </head>
 
 <body>
@@ -42,6 +50,7 @@
                 <li class="nav-item mr-2"><a class="nav-link" href="lunch.html">Lunches</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="dessert.html">Desserts</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="snack.html">Snacks</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="share.html">Share your recipe!</a></li>
             </ul>
         </div>
 
@@ -103,7 +112,7 @@
             <div class="footer-row">
                 <p>Copyright &copy; 2020 Yummy!</p>
                 <a class="nav-link" href="https://www.facebook.com" target="_blank"><img
-                        src="images/facebook_original.png"></a>
+                        src="../images/facebook_original.png"></a>
             </div>
           
         </div>

@@ -23,8 +23,9 @@ a:hover {
 
 
 .wrapper {
-    width:100%;
-    }
+  width:100%;
+}
+
 
 .body-image {
   -webkit-background-size: cover;
@@ -32,13 +33,11 @@ a:hover {
   -o-background-size: cover;
   background-position: fixed;
   background-size: 100% auto;
-    background-color: #c8e6d0;
-    
-    background-size: cover;
-   
-    height: 100%;
-    width:100%;
-    margin: 0px auto;
+  background-color: #c8e6d0;
+  background-size: cover;
+  height: 100%;
+  width:100%;
+  margin: 0px auto;
 }
 
 .page-header {
@@ -55,52 +54,52 @@ a:hover {
 
 
 .labeltxt {
-    color: white;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-    }
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
 
 
   /* Fade animation */
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 3s;
-    animation-name: fade;
-    animation-duration: 3s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
 
-  .button-wrap  {
-    text-align: center;
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+  
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.button-wrap  {
+  text-align: center;
   }
 
 
 .footer-row {
-    background-color: rgb(129, 148, 134);
-    color: #FFFFFF;
-    display: flex;
-    font-size: small;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    }
+  background-color: rgb(129, 148, 134);
+  color: #FFFFFF;
+  display: flex;
+  font-size: small;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}

@@ -14,13 +14,14 @@ a:hover {
 
 
 .form-container  {
-  position:absolute;
-  border: 5px solid gray;
-  background-color: gray;
-  opacity: 0.8;
-  margin: 200px 200px 200px 200px;
+margin: 30px;
+align-items: center;
 }
 
+.text-boxes {
+  margin-top: 15px;
+  padding: 15px;
+}
 
 .wrapper {
   width:100%;
@@ -31,7 +32,7 @@ a:hover {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  /* background-position: fixed; */
+  background-position: fixed;
   background-size: 100% auto;
   background-color: #c8e6d0;
   background-size: cover;

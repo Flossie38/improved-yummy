@@ -18,6 +18,15 @@ Features
 Existing Features
 
 
+
+Issues and Bugs
+The first main styling issue I encountered was on the contact form becuase I forgot to give the forma container a class ID.
+The second was an issue with the text area boxes full of spaces as I had dropped the closing tag on to the row below.
+
+For each issue and bug I encountered I can attrivute the fix almost entirely to stack overflow forum - it is a life saver.
+
+
+
 Features Left to Implement
 Search function for recipe keywords (e.g. chicken)
 

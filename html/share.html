@@ -9,7 +9,10 @@
 
 
     <!-- bootstrap CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -23,13 +26,14 @@
     <title>Yummy! | Cooking up a storm</title>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-<!-- 
-    <script type="text/javascript">
-        (function(){
-           emailjs.init("user_SJxuXN2N4qcMCYTY0B2Ja");
-           
+
+    <script>(function () {
+            emailjs.init("user_SJxuXN2N4qcMCYTY0B2Ja");
+
         })();
-        </script>     -->
+    </script>
+
+
 </head>
 
 <body>
@@ -74,44 +78,47 @@
 
             <br>
 
-            <div id="form-container" class="form-container">
-                <!-- <form onsubmit="return sendMail(this);"> -->
-                <div class="row">
+            <div id="form-container" class="form-container" class="contactForm">
+                <form onsubmit="return sendMail(this);">
+                    <div class="row">
 
-                    <div class="col-sm-3">
-                        <input type="text" name="name" class="form-control" id="firstname" placeholder="your name"
-                            required />
-                    </div>
-                    
-                    <div class="col-sm-3">
-                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" type="email"
-                            placeholder="your email address" required />
-                    </div>
-                    
-                    <div class="col-sm-3">
-                        <input type="text" name="recipe_name" class="form-control" placeholder="recipe name" required />
-                    </div>
+                        <div class="col-sm-3">
+                            <input type="text" name="name" class="form-control" id="firstname" placeholder="your name"
+                                required />
+                        </div>
 
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-sm-6" class="text-boxes">
-                        <textarea  class="form-control" placeholder="ingredients" rows="10" name="ingredients" id="ingredients"></textarea>
-                    </div>
-                    <div class="col-sm-6"  class="text-boxes">
-                        <textarea  class="form-control" placeholder="method of preparation" rows="10" name="method"  id="method"></textarea>
-                    </div>
+                        <div class="col-sm-3">
+                            <input type="text" name="emailaddress" class="form-control" id="emailaddress" type="email"
+                                placeholder="your email address" required />
+                        </div>
 
-                </div>
-                <br>
-                <h3>Yes, please enter me in to a chance to win!</h3>
-                <div class="form-check">
-                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
-                        aria-label="checkbox">
-                </div>
-                <br>
-                <button type="submit">Submit</button>
+                        <div class="col-sm-3">
+                            <input type="text" name="recipe_name" class="form-control" placeholder="recipe name"
+                                required />
+                        </div>
 
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6" class="text-boxes">
+                            <textarea class="form-control" placeholder="ingredients" rows="10" name="ingredients"
+                                id="ingredients"></textarea>
+                        </div>
+                        <div class="col-sm-6" class="text-boxes">
+                            <textarea class="form-control" placeholder="method of preparation" rows="10" name="method"
+                                id="method"></textarea>
+                        </div>
+
+                    </div>
+                    <br>
+                    <h3>Yes, please enter me in to a chance to win!</h3>
+                    <div class="form-check">
+                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
+                            value="option1" aria-label="checkbox">
+                    </div>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
 
                 <br>
 
@@ -128,7 +135,8 @@
         </div>
 
 
-
+        <!-- send email  -->
+        <script src="../javascript/sendMail.js"></script>
 
 
 

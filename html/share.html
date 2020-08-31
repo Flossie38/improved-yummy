@@ -9,7 +9,7 @@
 
 
     <!-- bootstrap CDN -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
         integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
         crossorigin="anonymous"></script>
 
@@ -27,9 +27,9 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script type="text/javascript">
-       (function(){
-          emailjs.init("user_SJxuXN2N4qcMCYTY0B2Ja");
-       })();
+        (function () {
+            emailjs.init("user_SJxuXN2N4qcMCYTY0B2Ja");
+        })();
     </script>
 
 
@@ -77,52 +77,56 @@
 
             <br>
 
-            <div id="form-container" class="form-container" class="contactForm">
-                <!-- <div class="center-form"> -->
-                <form onsubmit="return sendMail(this);">
-                    <div class="row">
+            <form class="form-container" class="form-container" onsubmit="return sendMail(this);">
 
-                        <div class="col-sm-3">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="your name"
-                                required />
-                        </div>
+                <div class="row">
 
-                        <div class="col-sm-3">
-                            <input type="text" name="emailaddress" class="form-control" id="emailaddress" type="email"
-                                placeholder="your email address" required />
-                        </div>
-
-                        <div class="col-sm-3">
-                            <input type="text" name="recipe_name" class="form-control" id="recipe_name" placeholder="recipe name"
-                                required />
-                        </div>
-
+                    <div class="col-sm-3">
+                        <label>Name</label>
+                        <input type="text" name="name" class="form-control" id="name1" placeholder="your name"
+                            required />
                     </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-sm-6" class="text-boxes">
-                            <textarea class="form-control" placeholder="ingredients" id="ingredients" rows="10" name="ingredients"
-                                id="ingredients"></textarea>
-                        </div>
-                        <div class="col-sm-6" class="text-boxes">
-                            <textarea class="form-control" placeholder="method of preparation" id="method" rows="10" name="method"
-                                id="method"></textarea>
-                        </div>
 
+                    <div class="col-sm-3">
+                        <label>Email address</label>
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress1" type="email"
+                            placeholder="your email address" required />
                     </div>
-                    <br>
-                    <h3>Yes, please enter me in to a chance to win!</h3>
-                    <div class="form-check">
-                        <input class="form-check-input position-static" type="checkbox" id="blankCheckbox"
-                            value="option1" aria-label="checkbox">
+
+                    <div class="col-sm-3">
+                        <label>Recipe name</label>
+                        <input type="text" name="recipe_name" class="form-control" id="recipe_name1"
+                            placeholder="recipe name" required />
                     </div>
-                    <br>
-                    <button type="submit">Submit</button>
-                </form>
+
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-6" class="text-boxes">
+                        <label>Ingredients</label>
+                        <textarea class="form-control" placeholder="ingredients" id="ingredients1" rows="10"
+                            name="ingredients" id="ingredients"></textarea>
+                    </div>
+                    <div class="col-sm-6" class="text-boxes">
+                        <label>Method of preparation</label>
+                        <textarea class="form-control" placeholder="method" id="method1" rows="10"
+                            name="method" id="method"></textarea>
+                    </div>
+
+                </div>
+                <br>
+                <!-- <h3>Yes, please enter me in to a chance to win!</h3>
+                <div class="form-check">
+                    <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1"
+                        aria-label="checkbox">
+                </div>
+                <br> -->
+                <button type="submit">Submit</button>
+
 
                 <br>
 
-            </div>
+            </form>
 
             <br>
 

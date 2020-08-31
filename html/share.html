@@ -26,11 +26,10 @@
     <title>Yummy! | Cooking up a storm</title>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-
-    <script>(function () {
-            emailjs.init("user_SJxuXN2N4qcMCYTY0B2Ja");
-
-        })();
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_SJxuXN2N4qcMCYTY0B2Ja");
+       })();
     </script>
 
 
@@ -79,11 +78,12 @@
             <br>
 
             <div id="form-container" class="form-container" class="contactForm">
+                <!-- <div class="center-form"> -->
                 <form onsubmit="return sendMail(this);">
                     <div class="row">
 
                         <div class="col-sm-3">
-                            <input type="text" name="name" class="form-control" id="firstname" placeholder="your name"
+                            <input type="text" name="name" class="form-control" id="name" placeholder="your name"
                                 required />
                         </div>
 
@@ -93,7 +93,7 @@
                         </div>
 
                         <div class="col-sm-3">
-                            <input type="text" name="recipe_name" class="form-control" placeholder="recipe name"
+                            <input type="text" name="recipe_name" class="form-control" id="recipe_name" placeholder="recipe name"
                                 required />
                         </div>
 
@@ -101,11 +101,11 @@
                     <br>
                     <div class="row">
                         <div class="col-sm-6" class="text-boxes">
-                            <textarea class="form-control" placeholder="ingredients" rows="10" name="ingredients"
+                            <textarea class="form-control" placeholder="ingredients" id="ingredients" rows="10" name="ingredients"
                                 id="ingredients"></textarea>
                         </div>
                         <div class="col-sm-6" class="text-boxes">
-                            <textarea class="form-control" placeholder="method of preparation" rows="10" name="method"
+                            <textarea class="form-control" placeholder="method of preparation" id="method" rows="10" name="method"
                                 id="method"></textarea>
                         </div>
 

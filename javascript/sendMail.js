@@ -11,13 +11,15 @@ function sendMail(contactForm) {
       .then(
          function (response) {
             console.log("SUCCESS", response);
+
          },
          function (error) {
             console.log("FAILED", error);
          });
-   return false   
+   var form = document.getElementById("contactForm");
+   form.reset();
+   return false
+
 }
 
-var form = document.getElementById("contactForm");
-form.reset();
 

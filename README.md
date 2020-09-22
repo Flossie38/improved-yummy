@@ -45,7 +45,7 @@ unfinished but will contain an email address field to allow users to be entered 
 Deployment
 THis project is deployed here https://flossie38.github.io/Milestone-3/
 
-I plan to deploy to Heroku pages
+I plan to deploy to Heroku 
 
 Credits
 Content
